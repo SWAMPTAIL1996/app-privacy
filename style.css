@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+    body { margin: 0; background: #eef2f7; color: #243348; font-family: system-ui, sans-serif; font-size: 1rem; line-height: 1.9; border-top: 8px solid #122540; overflow-wrap: anywhere; }
+    main { max-width: 880px; margin: 48px auto; padding: 48px; background: white; border: 1px solid #dce3ed; border-radius: 4px; }
+    h1 { color: #122540; font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.5; margin: 0 0 24px; }
+    h2 { color: #122540; font-size: 1.2rem; margin-top: 2.5rem; padding-left: 14px; border-left: 3px solid #087e94; }
+    table { width: 100%; table-layout: fixed; border-collapse: collapse; } th, td { padding: 16px; border: 1px solid #dce0e5; text-align: left; vertical-align: top; } th { background: #f0f4f8; } th:first-child { width: 34%; }
+    small { color: #566170; font-size: .875rem; } a { color: #1859ad; text-underline-offset: .2em; } a:focus-visible { outline: 3px solid #087e94; outline-offset: 4px; }
+    @media (max-width: 600px) { main { margin: 0; padding: 28px 20px; border: 0; border-radius: 0; } th, td { padding: 10px; } }
+    @media print { body { background: white; border: 0; } main { margin: 0; padding: 0; border: 0; } }
+nav { display: flex; justify-content: flex-end; gap: 20px; margin-bottom: 28px; font-size: 1rem; }
+nav [aria-current] { color: #122540; font-weight: 700; text-decoration: none; }
